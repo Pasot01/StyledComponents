@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'styled-components'
-import { GlobalStyles } from './components/styles/global'
+import { GlobalStyles } from './components/styles/global-style'
 import { Container } from './components/styles/container-style'
 import Header from './components/Header'
 
@@ -8,7 +8,8 @@ const theme = {
     header: '#ebfbff',
     body: '#fff',
     footer: '#003333',
-  }
+  },
+  mobile: '768px',
 }
 
 function App() {
